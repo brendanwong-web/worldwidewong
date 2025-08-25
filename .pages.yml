@@ -52,7 +52,7 @@ content:
   - name: about
     type: file
     label: About
-    path: src/pages/about.md
+    path: src/content/about.md
     fields:
       - {name: tagLine, label: Tag line, type: string}
       - {name: body, label: Body, type: rich-text}
