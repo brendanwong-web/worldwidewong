@@ -66,7 +66,6 @@ content:
     path: src/content/blog
     type: collection
     filename: "{fields.title}.mdx"
-    format: code
     view:
       fields: [ title ]
       primary: title
@@ -106,7 +105,7 @@ content:
          default: Brendan
        - name: body
          label: Body
-         type: rich-text
+         type: code
   - name: about
     type: file
     label: About
