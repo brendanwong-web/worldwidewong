@@ -106,6 +106,8 @@ content:
        - name: body
          label: Body
          type: code
+         options:
+          language: html
   - name: about
     type: file
     label: About
