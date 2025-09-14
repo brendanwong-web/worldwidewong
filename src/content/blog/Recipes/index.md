@@ -6,7 +6,7 @@ date: 2025-09-14
 tags:
   - Cooking
   - Recipes
-image: ./1200x630.png
+image: ./1200x630.jpg
 authors:
   - Brendan
 ---
