@@ -50,6 +50,17 @@ content:
        - name: body
          label: Body
          type: rich-text
+    view:
+      fields: [ title ]
+      primary: title
+      sort: [ date, title ]
+      node:
+        filename: index.md
+        hideDirs: all
+      default:
+        search: ''
+        sort: title
+        order: desc
   - name: postsx
     label: MDX Posts
     path: src/content/blog
