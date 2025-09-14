@@ -1,7 +1,7 @@
 ---
 title: Hiking Svaneti
 description: "Hiking the Svaneti region "
-draft: true
+draft: false
 date: 2025-09-14
 tags:
   - hiking
