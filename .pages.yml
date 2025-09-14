@@ -21,6 +21,7 @@ content:
     path: src/content/blog
     type: collection
     filename: 'fields.title.md'
+    subfolders: false
     fields:
        - name: title
          label: Title
