@@ -34,3 +34,7 @@ On the first day, we set off to decent weather. 1 km into our 16km hike however 
 Eventually we make it to Chvabiani and sleep wonderfully.
 
 The next day we hike the other direction across the Zuruldi range, hoping to end at the ski lift which would take us down to Mestia. From Chvabiani, we hitchhike to the trail head in Tsvirmi and begin our hike. Before long, the mountain mist blankets the entire ridge and we are stuck in torrential rain. As we arrive at the ski lift, it is, to no surprise given our recent misfortune, closed. We begin the long hike down the mountain. Near the end we get a hitchhike into Mestia.
+
+## Kutaisi region
+
+Visit all the sulfur pools in the region, they are beautiful. We stayed in a car overnight in an extremely sketchy spot just to visit the same sulfur pool twice! Kutaisi was beautiful. We stayed in Belas guest house and she and her husband were such a charming couple, along with their 3 kids. Afterwards, we drove from Kutaisi to Gori where we spent one night in a winery. One bottle was 40 GEL. On the way, we stopped in Chiatura, a town that relies on cable cars as its main form of public transport. Walking through it and taking the cable cars around was such a trippy experience.
