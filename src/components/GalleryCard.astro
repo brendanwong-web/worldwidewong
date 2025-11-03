@@ -26,8 +26,8 @@ const { album } = Astro.props
           <Image
               src={album.data.cover}
               alt={album.data.coverAlt}
-              format="avif"
               quality="mid"
+              width="768"
               class:list={[
                 "object-cover h-48 w-100 object-center",
                 "group-hover:shadow-lg group-hover:opacity-90"
