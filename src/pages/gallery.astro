@@ -8,7 +8,10 @@ import { getAllProjects } from '@/lib/data-utils'
 import { Picture, Image } from 'astro:assets';
 import { getCollection } from "astro:content";
 
-const albums = await getCollection("albums");
+const albums = (await getCollection("albums")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+
 
 ---
 <Layout class="max-w-3xl">
