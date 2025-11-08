@@ -28,6 +28,10 @@ export const NAV_LINKS: SocialLink[] = [
     href: '/gallery',
     label: 'gallery',
   },
+  {
+    href: '/recipes',
+    label: 'recipes',
+  },
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [

@@ -1,0 +1,36 @@
+---
+import Breadcrumbs from '@/components/Breadcrumbs.astro'
+import Link from '@/components/Link.astro'
+import PageHead from '@/components/PageHead.astro'
+import RecipeCard from '@/components/RecipeCard.astro'
+import Layout from '@/layouts/Layout.astro'
+import { getAllProjects } from '@/lib/data-utils'
+import { Picture, Image } from 'astro:assets';
+import { getCollection } from "astro:content";
+
+const recipes = (await getCollection("recipes")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+  
+
+---
+<Layout class="max-w-3xl">
+  <PageHead slot="head" title="Gallery" />
+  <Breadcrumbs items={[{ label: 'Gallery', icon: 'lucide:images' }]} />
+
+  <section>
+    <div class="prose mb-8">
+      <h3 class="text-2xl  mt-0 lg:mt-4 leading-none font-medium">Life is more fun...</h3>
+      <p class="mb-4">
+        with a camera. At least that's what i've discovered in the past 2 years of photography.
+        I've taken this camera with me to many places, from the blue eye in North Albania to the quaint kitchen of cô (Aunty in Vietnamese) in the rural Vi Xuyen Village, Ha Giang, Vietnam. And with it, I've managed
+        to capture some beautiful experiences that I will recall, years from now, with fondness and great clarity because of the photos I took.  
+      </p>
+    </div>
+    <div class="grid lg:grid-cols-2 gap-4">
+      {recipes.map((recipe) => 
+        <RecipeCard recipe={recipe}/>
+      )}
+    </div>
+  </section>
+</Layout>

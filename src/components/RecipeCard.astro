@@ -1,0 +1,65 @@
+---
+import Link from '@/components/Link.astro'
+import { Badge } from '@/components/ui/badge'
+import { formatDate } from '@/lib/utils'
+import { Icon } from 'astro-icon/components'
+import { Image } from 'astro:assets'
+import type { CollectionEntry } from 'astro:content'
+
+interface Props {
+  recipe: CollectionEntry<'recipes'>
+}
+
+const { recipe } = Astro.props
+---
+
+<div
+  class="border bg-destructive text-secondary-foreground border-foreground hover:bg-secondary/50 sm:h-auto lg:h-full transition-colors duration-300 ease-in-out"
+>
+  <Link
+    href={`/recipes/${recipe.id}`}
+    class="flex flex-col h-full justify-start"
+  >
+    {
+      recipe.data.cover && (
+        <div class="w-auto border-b border-foreground">
+          <Image
+              src={recipe.data.cover}
+              alt={recipe.data.coverAlt}
+              quality="mid"
+              width="768"
+              class:list={[
+                "object-cover h-48 w-100 object-center",
+                "group-hover:shadow-lg group-hover:opacity-90"
+              ]}
+            />
+        </div>
+      )
+    }
+    <div class="p-4 bg-destructive text-foreground">
+      <div
+      class="mb-2 flex flex-wrap gap-x-2 items-center justify-between"
+    >
+      <h3 class="text-xl font-medium capitalize">
+        {recipe.data.title}
+      </h3>
+      {
+        recipe.data.pubDate && (
+          <p class="px-1 flex gap-x-1.5 text-sm">
+            <span class="flex items-center gap-x-1.5">
+              <Icon name="lucide:calendar" class="size-3" />
+              <span>
+                {formatDate(recipe.data.pubDate)}
+                
+              </span>
+            </span>
+          </p>
+        )
+      }
+      </div>
+      <p class="mt-4 mb-2 text-sm">
+        {recipe.data.description}
+      </p>
+    </div>
+  </Link>
+</div>

@@ -57,4 +57,24 @@ const albums = defineCollection({
 	  }),
   });
 
-export const collections = { blog, authors, projects, albums }
+const ingredientList = z.object({
+  first: z.array(z.string()),
+  second: z.array(z.string()),
+  third: z.array(z.string()),
+  fourth: z.array(z.string()),
+  optional: z.array(z.string()),
+})
+   
+
+const recipes = defineCollection({
+	loader: glob({ base: './src/content/recipes', pattern: '**/*.{md,mdx}' }),
+	schema: ({ image }) => z.object({
+		title: z.string(),
+		description: z.string(),
+		pubDate: z.coerce.date(),
+		cover: image(),
+		coverAlt: z.string(),
+    ingredients: z.array(ingredientList.partial())}),
+  });
+
+export const collections = { blog, authors, projects, albums, recipes }
