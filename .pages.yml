@@ -130,7 +130,7 @@ content:
         search: ''
         sort: title
         order: desc
-    filename: 'fields.title.md'
+    filename: '{fields.title}.md'
     fields:
        - name: title
          label: Title
@@ -146,17 +146,22 @@ content:
          type: object
          list: true
          fields:
-            - name: ingredient_group
-              label: IngredientGroup
-              type: object
-              fields: 
-                - name: key
-                  label: key
-                  type: string
-                - name: ingList
-                  label: ingList
-                  type: string
-                  list: true
+            - name: first
+              label: First
+              type: string
+              list: true
+            - name: second
+              label: Second
+              type: string
+              list: true
+            - name: third
+              label: Third
+              type: string
+              list: true
+            - name: optional
+              label: Optional
+              type: string
+              list: true
        - name: image
          label: Image
          type: string
