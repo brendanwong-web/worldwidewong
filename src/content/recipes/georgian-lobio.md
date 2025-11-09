@@ -1,6 +1,7 @@
 ---
 title: Georgian Lobio
 description: This recipe is for Georgian Lobio, a beautiful, hearty, bean dish
+pubDate: 2025-11-09
 ingredients:
   - subtitle: first
     ingList:
@@ -10,7 +11,7 @@ ingredients:
       - 5 cloves garlic
       - coriander seed, thyme, cayenne pepper, blue fenugreek
       - pomegranate juice or sour plum juice
-cover: ./lobio.jpg
+cover: ./lobio.webp
 coverAlt: This is georgian lobio
 ---
 1\. Soak beans overnight in salted water
