@@ -16,16 +16,16 @@ coverAlt: This is georgian lobio
 ---
 1\. Soak beans overnight in salted water
 
-1\. Boil for 1 hour with salt, drain and save 2 cups of liquid.
+2\. Boil for 1 hour with salt, drain and save 2 cups of liquid.
 
-1\. Grind walnuts, mince garlic and cilantro, combine with blue fenugreek, coriander powder, cumin, pepper, paprika
+3\. Grind walnuts, mince garlic and cilantro, combine with blue fenugreek, coriander powder, cumin, pepper, paprika
 
-1\. Saute onions until translucent, add mixture from previous step.
+4\. Saute onions until translucent, add mixture from previous step.
 
-1\. Add acid (pomegranate juice), beans, and 1 cup bean liquid.
+5\. Add acid (pomegranate juice), beans, and 1 cup bean liquid.
 
-1\. Add lemon juice, sour plum sauce, to finish
+6\. Add lemon juice, sour plum sauce, to finish
 
-1\. Mash beans and add liquid to achieve desired constistency
+7\. Mash beans and add liquid to achieve desired constistency
 
-1\. Finish with fresh cilantro and lemon juice.
+8\. Finish with fresh cilantro and lemon juice.
