@@ -33,3 +33,5 @@ ingredients:
 1.  in a large bowl mix blended ingredients, fish sauce, gochugaru, and flour paste. You should get a thick red mixture.
 1.  slather your cabbage leaves in the bowl with the paste.
 1.  place in airtight container, leave to ferment outside for 1-2 days then into fridge.
+
+Youtube [video](https://youtu.be/qV5XpqFgvQ0?si=pICirEWfYqc5jWs3) for reference

@@ -16,17 +16,17 @@ const { title, ing, isSingle } = Astro.props
 ---
 
   <div>
-    <h3 class="capitalize">
+    <h3 class="capitalize text-sm m-0">
       {
         !isSingle &&
         title
       }
     </h3>
-    <ul>
+    <ul class="my-0">
       {
         ing?.map((k) => {
             return(
-              <li>
+              <li class="capitalize">
                 {k}
               </li>
             )

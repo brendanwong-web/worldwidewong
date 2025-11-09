@@ -37,16 +37,16 @@ const { recipe } = Astro.props
         </div>
       )
     }
-    <div class="p-4 bg-destructive text-foreground">
+    <div class="p-4 bg-muted text-foreground">
       <div
-      class="flex flex-wrap gap-x-2 items-center justify-between"
+      class="flex flex-col gap-x-2 justify-between"
     >
       <h3 class="text-xl font-medium capitalize">
         {recipe.data.title}
       </h3>
       {
         recipe.data.pubDate && (
-          <p class="px-1 flex gap-x-1.5 text-sm">
+          <p class="flex gap-x-1.5 text-sm">
             <span class="flex items-center gap-x-1.5">
               <Icon name="lucide:calendar" class="size-3" />
               <span>
