@@ -153,10 +153,14 @@ content:
               label: List of Ingredients
               type: string
               list: true
-       - name: image
-         label: Image
+       - name: cover
+         label: Cover Image
          type: string
          default: ./bread.jpg
+       - name: coverAlt
+         label: Alt text for cover image
+         type: string
+         default: This is bread
        - name: body
          label: Body
          type: rich-text
