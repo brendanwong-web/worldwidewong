@@ -23,10 +23,10 @@ function getHeadingMargin(depth: number): string {
 
 <details
   open
-  class="group col-start-2 rounded-xl border p-4 xl:sticky xl:top-20 xl:col-start-1 xl:mr-8 xl:ml-auto xl:h-[calc(100vh-5rem)] xl:max-w-fit xl:rounded-none xl:border-none xl:p-0"
+  class="hidden xl:block group col-start-2 p-4 xl:sticky lg:top-20 lg:col-start-1 lg:mr-8 lg:ml-auto lg:h-[calc(100vh-5rem)] lg:max-w-fit lg:rounded-none lg:border-none lg:p-0"
 >
   <summary
-    class="flex cursor-pointer items-center justify-between text-xl font-medium group-open:pb-4 xl:hidden"
+    class="flex cursor-pointer items-center justify-between text-sm font-medium group-open:pb-4 lg:hidden"
   >
     <span>Table of Contents</span>
     <Icon
@@ -44,9 +44,9 @@ function getHeadingMargin(depth: number): string {
       class="flex list-none flex-col gap-y-2 px-4 xl:mr-8"
       id="table-of-contents"
     >
-      <li class="hidden text-lg font-medium xl:block">Table of Contents</li>
+      <li class="hidden text-lg font-medium lg:block">Table of Contents</li>
       {
-        headings.map((heading) => (
+        headings.map((heading) => ( 
           <li
             class={cn(
               'text-foreground/60 px-4 text-sm xl:p-0',
@@ -55,7 +55,7 @@ function getHeadingMargin(depth: number): string {
           >
             <a
               href={`#${heading.slug}`}
-              class="marker:text-foreground/30 list-item list-disc underline decoration-transparent underline-offset-[3px] transition-colors duration-200 hover:decoration-inherit xl:list-none"
+              class="marker:text-foreground/30 underline decoration-transparent underline-offset-[3px] transition-colors duration-200 hover:decoration-inherit xl:list-none"
             >
               {heading.text}
             </a>
