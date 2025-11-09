@@ -138,6 +138,7 @@ content:
        - name: description
          label: Description
          type: string
+         default: This recipe is for 
        - name: pubDate
          label: Date
          type: date
@@ -149,6 +150,7 @@ content:
             - name: subtitle
               label: Subtitle
               type: string
+              default: first
             - name: ingList
               label: List of Ingredients
               type: string
