@@ -1,5 +1,5 @@
 ---
-title: Steam chicken and eggs
+title: Steamed chicken and eggs
 description: Silky savoury steamed eggs with pork base
 pubDate: 2025-11-09
 ingredients:
