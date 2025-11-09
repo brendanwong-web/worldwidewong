@@ -57,14 +57,6 @@ const albums = defineCollection({
 	  }),
   });
 
-const _ingredientList = z.object({
-  first: z.array(z.string()),
-  second: z.array(z.string()),
-  third: z.array(z.string()),
-  fourth: z.array(z.string()),
-  optional: z.array(z.string()),
-})
-
 const ingredientList = z.array(z.object({
   subtitle: z.string(),
   ingList: z.array(z.string())
