@@ -13,8 +13,8 @@ ingredients:
 cover: ./chicken_salad.jpg
 coverAlt: This is georgian chicken salad
 ---
-1\. place chicken and carrots in cool water, bring to boil then kill heat and leave for 20 minutes, shred.
-
-1\. julienne cucumbers, carrots, peppers
-
-1\. Combine and season with salt, pepper, herb of choice
+1.  place chicken and carrots in cool water, bring to boil then kill heat and leave for 20 minutes, shred.
+    
+2.  julienne cucumbers, carrots, peppers
+    
+3.  Combine and season with salt, pepper, herb of choice
