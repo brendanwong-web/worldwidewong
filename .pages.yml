@@ -119,6 +119,17 @@ content:
     label: Recipes
     path: src/content/recipes
     type: collection
+    view:
+      fields: [ title ]
+      primary: title
+      sort: [ date, title ]
+      node:
+        filename: index.mdx
+        hideDirs: all
+      default:
+        search: ''
+        sort: title
+        order: desc
     filename: 'fields.title.md'
     fields:
        - name: title
