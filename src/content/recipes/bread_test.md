@@ -20,7 +20,8 @@ ingredients:
     ingList:
       - Eggs
       - Honey
-image: ./bread.jpg
+cover: ./bread.jpg
+coverAlt: This is bread test
 ---
 1.  Mix all flours and salt together
     
