@@ -38,7 +38,8 @@ const { recipe } = Astro.props;
 
 const { Content, headings } = await render(recipe);
 
-const isSingle = recipe.data.ingredients.length == 1 ? true : false
+const ingGroups = recipe.data.ingredients
+// const isSingle = recipe.data.ingredients.length == 1 ? true : false
 ---
 
 <Layout class="max-w-3xl">
@@ -71,14 +72,12 @@ const isSingle = recipe.data.ingredients.length == 1 ? true : false
         </p>
         <Recipe>
             <Fragment slot="ing">
-                {   recipe.data.ingredients &&
-                    recipe.data.ingredients.map((l, i) => {
-                        const ingListTitle = Object.keys(l)[0]
-                        const ingList = Object.values(l)[0]
-                        return (
-                            <IngList title={ingListTitle} isSingle={isSingle} ing={ingList}/>
+                {   
+                    ingGroups.map((ingList) => {
+                        return(
+
+                            <IngList title={ingList.subtitle} ing={ingList.ingList} isSingle={false}/>
                         )
-                        
                     })
                 }
                <!--  <ul>

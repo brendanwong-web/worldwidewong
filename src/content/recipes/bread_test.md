@@ -6,7 +6,7 @@ cover: ./bread.jpg
 coverAlt: "alt for bread"
 ingredients:
     - subtitle: first
-    - ingList:
+      ingList:
         -  100g AP flour
         -  280g bread flour
         -  80g wholewheat flour
@@ -18,6 +18,10 @@ ingredients:
         -  1tsp yeast
         -  60g linseed/grains (optional)
         -  1tsp bread improver (optional)
+    - subtitle: second
+      ingList:
+        -  srrtats
+        -  asrtsrtrs
 ---
 1.  Mix all flours and salt together 
 
