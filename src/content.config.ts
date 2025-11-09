@@ -57,13 +57,15 @@ const albums = defineCollection({
 	  }),
   });
 
-const ingredientList = z.object({
+const _ingredientList = z.object({
   first: z.array(z.string()),
   second: z.array(z.string()),
   third: z.array(z.string()),
   fourth: z.array(z.string()),
   optional: z.array(z.string()),
 })
+
+const ingredientList = z.record(z.string(), z.array(z.string()))
    
 
 const recipes = defineCollection({
@@ -74,7 +76,7 @@ const recipes = defineCollection({
 		pubDate: z.coerce.date(),
 		cover: image(),
 		coverAlt: z.string(),
-    ingredients: z.array(ingredientList.partial())}),
+    ingredients: z.array(ingredientList)}),
   });
 
 export const collections = { blog, authors, projects, albums, recipes }

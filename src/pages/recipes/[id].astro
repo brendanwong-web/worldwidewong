@@ -44,12 +44,27 @@ const isSingle = recipe.data.ingredients.length == 1 ? true : false
 <Layout class="max-w-3xl">
     <PageHead slot="head" title="Recipes" />
     <Breadcrumbs items={[
-        { href: '/recipes', label: 'Recipes', icon: 'lucide:images' },
-        { label: recipe.id, icon: 'lucide:images' },
+        { href: '/recipes', label: 'Recipes', icon: 'lucide:cooking-pot' },
+        { label: recipe.id, icon: 'lucide:eye' },
         ]} />
   
     <section>
       <div class="prose mb-8">
+        {
+            recipe.data.cover && (
+              <div class="w-auto border-b border-foreground">
+                <Image
+                    src={recipe.data.cover}
+                    alt={recipe.data.coverAlt}
+                    width="1280"
+                    class:list={[
+                      "object-cover h-48 w-100 object-center",
+                      "group-hover:shadow-lg group-hover:opacity-90"
+                    ]}
+                  />
+              </div>
+            )
+          }
         <h3 class="text-2xl  mt-0 lg:mt-4 leading-none font-medium">{recipe.data.title}</h3>
         <p>
             {recipe.data.description}

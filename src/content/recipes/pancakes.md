@@ -1,9 +1,9 @@
 ---
 title: Pancakes
-description: "hello"
+description: "Georgian pancakes, or Machkatebi, are like traditional pancakes but oomfed up, owing to the complexity of flavour lent by the sour cream/yoghurt, and the deeper fry leading to crispy edges"
 pubDate: 2025-09-20
-cover: ./bread.jpg
-coverAlt: "alt for bread"
+cover: ./pancakes.jpg
+coverAlt: "Image showing pancakes"
 ingredients:
     - first:
         - 2 eggs

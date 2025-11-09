@@ -1,14 +1,14 @@
 ---
 title: Kimchi
-description: "hello"
+description: "Kimchi from that one youtube tutorial"
 pubDate: 2025-09-20
 cover: ./kimchi.webp
-coverAlt: "alt for bread"
+coverAlt: "kimchi"
 ingredients:
-    - first:
+    - In a pot:
         - 1/4 cup glutinous rice flour
         - 2 cups water
-    - second:
+    - To blend:
         - 6 garlic
         - 3/4 thumb ginger
         - 1/3 cup dashi
@@ -17,7 +17,7 @@ ingredients:
         - 1 carrot
         - 1 cucumber
         - bunch of garlic shoots
-    - optional:
+    - To finish:
         - 1/4 cup fish sauce
         - 1.5 cup gochugaru
         - 1 cabbage head

@@ -11,6 +11,7 @@ interface Props {
 }
 
 const { recipe } = Astro.props
+
 ---
 
 <div
@@ -38,7 +39,7 @@ const { recipe } = Astro.props
     }
     <div class="p-4 bg-destructive text-foreground">
       <div
-      class="mb-2 flex flex-wrap gap-x-2 items-center justify-between"
+      class="flex flex-wrap gap-x-2 items-center justify-between"
     >
       <h3 class="text-xl font-medium capitalize">
         {recipe.data.title}
@@ -57,9 +58,6 @@ const { recipe } = Astro.props
         )
       }
       </div>
-      <p class="mt-4 mb-2 text-sm">
-        {recipe.data.description}
-      </p>
     </div>
   </Link>
 </div>
