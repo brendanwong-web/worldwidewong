@@ -150,8 +150,8 @@ content:
               label: IngredientGroup
               type: object
               fields: 
-                - name: group1
-                  label: group1
+                - name: key
+                  label: key
                   type: string
                 - name: ingList
                   label: ingList
