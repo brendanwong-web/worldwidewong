@@ -144,27 +144,23 @@ content:
        - name: ingredients
          label: Ingredients
          type: object
+         list: true
          fields:
-            - name: first
-              label: First
+            - name: subtitle
+              label: Subtitle
+              type: string
+            - name: ingList
+              label: List of Ingredients
               type: string
               list: true
-            - name: second
-              label: Second
-              type: string
-              list: true
-            - name: third
-              label: Third
-              type: string
-              list: true
-            - name: optional
-              label: Optional
-              type: string
-              list: true
-       - name: image
-         label: Image
+       - name: cover
+         label: Cover Image
          type: string
          default: ./bread.jpg
+       - name: coverAlt
+         label: Alt text for cover image
+         type: string
+         default: This is bread
        - name: body
          label: Body
          type: rich-text

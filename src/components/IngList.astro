@@ -12,11 +12,11 @@ interface Props {
 }
 
 const { title, ing, isSingle } = Astro.props
+
 ---
 
-<section class="text-pretty text-neutral-700">
   <div>
-    <h3>
+    <h3 class="capitalize">
       {
         !isSingle &&
         title
@@ -27,11 +27,10 @@ const { title, ing, isSingle } = Astro.props
         ing?.map((k) => {
             return(
               <li>
-          {k}
-        </li>
+                {k}
+              </li>
             )
       })
     }
     </ul>
   </div>
-</section>
