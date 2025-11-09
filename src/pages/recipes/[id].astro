@@ -1,0 +1,107 @@
+---
+import { getCollection } from "astro:content";
+import { getAlbumImages } from '@/lib/data-utils'
+import { Image } from "astro:assets";
+import Callout from '@/components/Callout.astro'
+import Breadcrumbs from '@/components/Breadcrumbs.astro'
+import { getEntry, render } from 'astro:content';
+import IngList from "@/components/IngList.astro";
+import PageHead from '@/components/PageHead.astro'
+import Link from '@/components/Link.astro'
+import PostHead from '@/components/PostHead.astro'
+import PostNavigation from '@/components/PostNavigation.astro'
+import SubpostsHeader from '@/components/SubpostsHeader.astro'
+import SubpostsSidebar from '@/components/SubpostsSidebar.astro'
+import TOCHeader from '@/components/TOCHeader.astro'
+import TOCSidebar from '@/components/TOCSidebar.astro'
+import { badgeVariants } from '@/components/ui/badge'
+import { Button } from '@/components/ui/button'
+import Layout from '@/layouts/Layout.astro'
+import Recipe from '@/components/Recipe.astro'
+
+export async function getStaticPaths() {
+    const recipes = await getCollection("recipes");
+  
+    const paths = Object.values(recipes).map((recipe) => {
+        return {
+        params: {id: recipe.id},
+        props: {recipe}
+        };
+    });
+
+    return paths;
+}
+
+
+const { id } = Astro.params;
+const { recipe } = Astro.props;
+
+const { Content, headings } = await render(recipe);
+
+const isSingle = recipe.data.ingredients.length == 1 ? true : false
+---
+
+<Layout class="max-w-3xl">
+    <PageHead slot="head" title="Recipes" />
+    <Breadcrumbs items={[
+        { href: '/recipes', label: 'Recipes', icon: 'lucide:cooking-pot' },
+        { label: recipe.id, icon: 'lucide:eye' },
+        ]} />
+  
+    <section>
+      <div class="prose mb-8">
+        {
+            recipe.data.cover && (
+              <div class="w-auto border-b border-foreground">
+                <Image
+                    src={recipe.data.cover}
+                    alt={recipe.data.coverAlt}
+                    width="1280"
+                    class:list={[
+                      "object-cover h-48 w-100 object-center",
+                      "group-hover:shadow-lg group-hover:opacity-90"
+                    ]}
+                  />
+              </div>
+            )
+          }
+        <h3 class="text-2xl  mt-0 lg:mt-4 leading-none font-medium">{recipe.data.title}</h3>
+        <p>
+            {recipe.data.description}
+        </p>
+        <Recipe>
+            <Fragment slot="ing">
+                {   recipe.data.ingredients &&
+                    recipe.data.ingredients.map((l, i) => {
+                        const ingListTitle = Object.keys(l)[0]
+                        const ingList = Object.values(l)[0]
+                        return (
+                            <IngList title={ingListTitle} isSingle={isSingle} ing={ingList}/>
+                        )
+                        
+                    })
+                }
+               <!--  <ul>
+                    {
+                        recipe.data.ingredients &&
+                        recipe.data.ingredients.length > 0 &&
+                        recipe.data.ingredients.map((ing) => {
+                            return(
+                                <li>
+                                    {ing}
+                                </li>
+                            )
+                        })
+                    }
+                </ul> -->
+            </Fragment>
+            <Fragment slot="steps">
+          
+                <Content />
+            </Fragment>
+          </Recipe> 
+        
+
+      </div>
+    </section>
+</Layout>

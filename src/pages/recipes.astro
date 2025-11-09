@@ -1,0 +1,35 @@
+---
+import Breadcrumbs from '@/components/Breadcrumbs.astro'
+import Link from '@/components/Link.astro'
+import PageHead from '@/components/PageHead.astro'
+import RecipeCard from '@/components/RecipeCard.astro'
+import Layout from '@/layouts/Layout.astro'
+import { getAllProjects } from '@/lib/data-utils'
+import { Picture, Image } from 'astro:assets';
+import { getCollection } from "astro:content";
+
+const recipes = (await getCollection("recipes")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+  
+
+---
+<Layout class="max-w-3xl">
+  <PageHead slot="head" title="Recipes" />
+  <Breadcrumbs items={[{ label: 'Recipes', icon: 'lucide:cooking-pot' }]} />
+
+  <section>
+    <div class="prose mb-8">
+      <h3 class="text-2xl  mt-0 lg:mt-4 leading-none font-medium">Recipes from around the world</h3>
+      <p class="mb-4">
+        This is my personal collection of recipes, curated by me over the course of my entire cooking life.
+        Some of them taken from excellent youtube videos, some from people i've met and begged for their recipe, and some i've made myself  
+      </p>
+    </div>
+    <div class="grid lg:grid-cols-2 gap-4">
+      {recipes.map((recipe) => 
+        <RecipeCard recipe={recipe}/>
+      )}
+    </div>
+  </section>
+</Layout>
