@@ -144,7 +144,6 @@ content:
        - name: ingredients
          label: Ingredients
          type: object
-         list: true
          fields:
             - name: first
               label: First
