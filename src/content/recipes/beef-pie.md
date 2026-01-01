@@ -1,6 +1,7 @@
 ---
 title: Beef pie
-description: Beef pie from fallow
+description: "Beef pie from fallow. Absolutely amazing. Make sure to rough the
+  dough fairly thick. For anything bigger than a 8-inch pan make 1.5 x dough. "
 pubDate: 2026-01-01
 ingredients:
   - subtitle: Filling
@@ -18,7 +19,7 @@ ingredients:
       - Salt
       - 220-250ml cold water
       - 100g butter, 100g lard
-cover: ./beefPie.jpg
+cover: ./BeefPie.jpg
 coverAlt: This is bread
 ---
 [Fallow video](%5Bhttps://www.youtube.com/watch?v=XE6JvrChQ_Q) for reference
@@ -52,3 +53,5 @@ coverAlt: This is bread
 ## Final
 
 1.  Assemble pie with caramelized onions on the bottom, cut vent, bake at 160 fan 60 minutes or 170 no fan 80 minutes.
+    
+2.  Let pie cool 30 minutes before cutting!!!
