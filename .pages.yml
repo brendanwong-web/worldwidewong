@@ -18,7 +18,7 @@ media:
     label: Recipe images
     input: src/content/recipes
     output: /src/content/recipes
-    extensions: [ png, webp, jpg, jpeg ]
+    extensions: [ png, webp, jpg, jpeg, JPG ]
 
 content:
   - name: posts
