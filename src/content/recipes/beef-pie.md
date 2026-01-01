@@ -21,7 +21,7 @@ ingredients:
 cover: ./bread.jpg
 coverAlt: This is bread
 ---
-\[Fallow video\]([https://www.youtube.com/watch?v=XE6JvrChQ\_Q](https://www.youtube.com/watch?v=XE6JvrChQ_Q)) for reference
+[Fallow video]([https://www.youtube.com/watch?v=XE6JvrChQ\_Q) for reference
 
 1.  Dust beef with flour lightly, brown in pan with decent amount of oil
     
