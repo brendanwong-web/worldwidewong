@@ -18,10 +18,10 @@ ingredients:
       - Salt
       - 220-250ml cold water
       - 100g butter, 100g lard
-cover: ./bread.jpg
+cover: ./beefPie.jpg
 coverAlt: This is bread
 ---
-[Fallow video]([https://www.youtube.com/watch?v=XE6JvrChQ\_Q) for reference
+[Fallow video](%5Bhttps://www.youtube.com/watch?v=XE6JvrChQ_Q) for reference
 
 1.  Dust beef with flour lightly, brown in pan with decent amount of oil
     
