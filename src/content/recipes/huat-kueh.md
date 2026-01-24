@@ -17,3 +17,5 @@ coverAlt: This is bread
 2.  Add flour in batches
     
 3.  steam for 2 hours
+
+![Huat Kueh 1](Huat_13.JPG)
