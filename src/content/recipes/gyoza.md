@@ -1,6 +1,6 @@
 ---
 title: Gyoza
-description: Recipe taken from Kenji over at  serious eats
+description: Recipe taken from Kenji over at serious eats
 pubDate: 2026-01-23
 ingredients:
   - subtitle: Filling
@@ -15,6 +15,9 @@ ingredients:
       - white pepper
       - 1 tsp salt
       - 750g ground pork
+      - 1tbsp oyster sauce
+      - 1 tbsp sesame oil
+      - 1tsp baking soda
 cover: ./bread.jpg
 coverAlt: This is Gyoza
 ---
