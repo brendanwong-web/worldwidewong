@@ -18,7 +18,7 @@ ingredients:
       - Salt
       - 220-250ml cold water
       - 100g butter, 100g lard
-cover: ./bread.jpg
+cover: ./BeefPie.jpg
 coverAlt: This is bread
 ---
 [Fallow video](https://www.youtube.com/watch?v=XE6JvrChQ_Q) for reference
