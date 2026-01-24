@@ -18,7 +18,7 @@ ingredients:
       - 1tbsp oyster sauce
       - 1 tbsp sesame oil
       - 1tsp baking soda
-cover: ./bread.jpg
+cover: ./gyoza.JPG
 coverAlt: This is Gyoza
 ---
 1.  Chop cabbage finely and small, salt for 2 hours
