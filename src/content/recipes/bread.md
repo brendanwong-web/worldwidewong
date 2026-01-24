@@ -8,14 +8,13 @@ ingredients:
       - 100g AP flour
       - 280g bread flour
       - 80g wholewheat flour
-      - 100g AP flour
       - 360g water
-      - 36g starter
+      - 40g starter
       - 20g honey
       - 10g salt
       - 1tsp yeast
       - 60g linseed/grains (optional)
-      - 1tsp bread improver (optional)
+      - 1tsp bread improver (optional)/5g malt powder
   - subtitle: In the bowl
     ingList:
       - Eggs
