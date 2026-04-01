@@ -29,8 +29,9 @@ ingredients:
 cover: ./bread.jpg
 coverAlt: This is granola
 ---
-1. **For the Granola:** Combine all dry granola ingredients, stir in buttermilk and butter, cover and set aside to let oaks soak ~ 20 mins. After, stir in sugar, salt, and let sit another 30 mins
-2. Toast nuts from mix-ins in oven about 10 minutes. Transfer to bowl, toss with oil, salt, stir in dried fruit.
-3. Reduce oven to 150C conventional. Spread oats and bake until uniformly brown, about 100 mins, stirring every 30 mins.
-4. When brown, remove and let dry. Mix with fruit and nut, return to hot tray, let cool.
+1. Pre-toast grains
+2. **For the Granola:** Combine all dry granola ingredients, stir in buttermilk and butter, cover and set aside to let oaks soak ~ 20 mins. After, stir in sugar, salt, and let sit another 30 mins
+3. Toast nuts from mix-ins in oven about 10 minutes. Transfer to bowl, toss with oil, salt, stir in dried fruit.
+4. Reduce oven to 150C conventional. Spread oats and bake until uniformly brown, about 100 mins, stirring every 30 mins.
+5. When brown, remove and let dry. Mix with fruit and nut, return to hot tray, let cool.
 
