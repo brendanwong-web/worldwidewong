@@ -5,15 +5,15 @@ pubDate: 2026-03-07
 ingredients:
   - subtitle: Base Granola
     ingList:
-      - 200g rolled oats
-      - 100g steel cut oats
-      - 3 Tbsp flaxseed, ground
-      - 40g wheat germ
+      - 100g rolled oats
+      - 50g steel cut oats
+      - 2 Tbsp flaxseed, ground
+      - 20g wheat germ
       - 1 Tbsp Chia seeds
-      - 170g buttermilk
-      - 100g melted butter
-      - 100g sugar
-      - 30g honey
+      - 85g buttermilk
+      - 50g melted butter
+      - 50g sugar
+      - 20g honey
       - 1/2 tsp salt
       - Cinammon
       - Cardomom
