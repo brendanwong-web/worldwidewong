@@ -13,6 +13,7 @@ ingredients:
       - 1 tsp sugar
       - 1/2 tsp coriander powder
       - 4g yeast
+      - 7g salt
 cover: ./bread.jpg
 coverAlt: This is bread
 ---
