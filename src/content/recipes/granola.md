@@ -26,7 +26,7 @@ ingredients:
       - 1 tsp coconut oil
       - pinch salt
       - 200g dried fruit
-cover: ./bread.jpg
+cover: ./granola.jpg
 coverAlt: This is granola
 ---
 1. Pre-toast grains
