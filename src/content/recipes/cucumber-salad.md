@@ -16,7 +16,7 @@ ingredients:
       - 1/2 tsp sesame oil
       - 2 tsp lao gan ma
       - 1 tsp chicken powder
-cover: ./cucumbersalad.jpg
+cover: ./cucumbersalad.jpeg
 coverAlt: This is bread
 ---
 1. Brine sliced cucumber ~5mm thick with salt for 15 minutes, rinse and set dry

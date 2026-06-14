@@ -23,6 +23,6 @@ ingredients:
       - 1.25 cups brown sugar
       - 2.5 tbsp cinnamon
       - ginger and nutmeg
-cover: ./cinnamonrolls.jpg
+cover: ./cinnamonrolls.JPG
 coverAlt: This is bread
 ---

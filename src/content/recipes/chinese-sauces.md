@@ -44,9 +44,11 @@ ingredients:
       - 1.5 tbsp sugar
       - 1 tsp salt
       - 1 cup rice
-cover: ./chinesesauces.jpg
+cover: ./chinesesauces.jpeg
 coverAlt: This is bread
 ---
+
+## Sushi rice
 1. cover rice with water (1:1 ratio), bring to boil
 2. when water begins to boil, bring heat to high. lid will start jiggling and bubbles forming
 3. When the bubbles stop forming around the lid and the lid settles reduce the heat to the lowest setting. It’s important that you allow for this boiling to occur, otherwise The rice will not absorb the water correctly.
