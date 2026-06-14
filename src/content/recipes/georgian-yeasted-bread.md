@@ -14,7 +14,7 @@ ingredients:
       - 1/2 tsp coriander powder
       - 4g yeast
       - 7g salt
-cover: ./bread.jpg
+cover: ./georgian-bread.jpeg
 coverAlt: This is bread
 ---
 Usual bread recipe

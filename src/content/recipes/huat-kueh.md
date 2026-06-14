@@ -9,7 +9,7 @@ ingredients:
       - 750g red sugar
       - 2tsp baking powder/soda
       - 1kg plain flour
-cover: ./bread.jpg
+cover: ./Huat_21.JPG
 coverAlt: This is bread
 ---
 1.  Mix sugar into milk, add baking soda

@@ -14,7 +14,7 @@ ingredients:
       - 15g coconut oil
       - 4 Tbsp sugar
       - 140g tapioca flour
-cover: ./bread.jpg
+cover: ./tangyuan.jpg
 coverAlt: This is bread
 ---
 ## For Tang Yuan
