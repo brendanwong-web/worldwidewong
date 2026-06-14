@@ -13,7 +13,7 @@ ingredients:
       - 50g hoisin
       - 50g honey
       - 20g dark soy
-  - subtitle: sweet garlic sauce
+  - subtitle: sweet garlic sauce for beef
     ingList:
       - lots of planed garlic
       - 100g honey
