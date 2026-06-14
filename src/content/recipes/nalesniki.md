@@ -3,8 +3,7 @@ title: Naleśniki
 description: This recipe is for naleśniki
 pubDate: 2026-01-31
 ingredients:
-  - subtitle: first
-    ingList:
+  - ingList:
       - 230g flour
       - 1 cup water
       - 1 cup kefir
