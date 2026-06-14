@@ -12,7 +12,6 @@ const albums = (await getCollection("albums")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 
-console.log(albums)
 ---
 <Layout class="max-w-3xl">
   <PageHead slot="head" title="Gallery" />

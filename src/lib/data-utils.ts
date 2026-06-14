@@ -306,7 +306,7 @@ export async function getTOCSections(postId: string): Promise<TOCSection[]> {
 export async function getAlbumImages(albumId: string) {
   // 1. List all album files from collections path
   let images = import.meta.glob<{ default: ImageMetadata }>(
-    "/src/content/albums/**/*.{jpeg,jpg,png}"
+    "/src/content/albums/**/*.{jpeg,jpg,png,JPG}"
   );
 
   // 2. Filter images by albumId
