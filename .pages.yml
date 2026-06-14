@@ -3,7 +3,7 @@ media:
     label: Gallery
     input: src/content/albums
     output: /src/content/albums
-    extensions: [ png, webp, jpg, jpeg ]
+    extensions: [ png, webp, jpg, jpeg, JPG ]
   - name: static
     label: Static
     input: public/static
