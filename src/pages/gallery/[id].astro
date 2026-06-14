@@ -26,6 +26,7 @@ export async function getStaticPaths() {
 
   const { album } = Astro.props;
   const images = await getAlbumImages(album.id);
+
 ---
 
 <GalleryLayout>
