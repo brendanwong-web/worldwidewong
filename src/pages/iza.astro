@@ -1,0 +1,126 @@
+---
+import Breadcrumbs from '@/components/Breadcrumbs.astro'
+import Link from '@/components/Link.astro'
+import PageHead from '@/components/PageHead.astro'
+import { buttonVariants } from '@/components/ui/button'
+import Layout from '@/layouts/Layout.astro'
+import { cn } from '@/lib/utils'
+import { Image } from 'astro:assets'
+import cloud from '../../public/static/iza.jpg'
+---
+
+<Layout class="max-w-3xl">
+  <PageHead slot="head" title="404" />
+
+  <section
+    class="flex flex-col items-center justify-center gap-y-4 text-left"
+  >
+  <Image
+          src={cloud}
+          alt="iza"
+          height={300}
+          class="object-cover m-0"
+        />
+    <div class="max-w-md prose courier-prime-regular">
+      <h1 class="mb-4 text-3xl font-medium courier-prime-bold">Greetings, Agent Cupcake</h1>
+      <p class="font-bold text-xl">
+        A very Happy Birthday to you, from the team at HQ.
+      </p>
+        <p>
+        But it's time to get back to work. The future of the world lies in your hands! <br><br>Here are your missions: 
+      </p>
+      <p class="text-sm text-gray-500">
+        P.S you can click on any of the blanks to reveal the answer if it's too hard
+        </p>
+      <div class="flex flex-col text-left">
+        <div class="ring bg text-foreground p-4 font-medium w-fit mb-8 rounded-md">
+          <div class="border-b border-black">
+
+            <h1 class="text-xl font-bold m-0 mb-2">
+              Mission #1
+            </h1>
+            <h4>
+              You are now standing at Pastalove. Solve the riddle to find your next point of interest.
+            </h4>
+          </div>
+        <p class="mb-2">
+          The students, tired and weary, drag themselves to their morning <span class="bg-blue-600 text-blue-600 inline-block rounded-md"> classes</span>. <br><br>
+          Most would agree, that in Spain, the sun-tanning women have the best <span class="bg-blue-600 text-blue-600 inline-block rounded-md"> assses </span>. <br><br>
+          To turn white sugar into brown, one simply adds <span class="bg-blue-600 text-blue-600 inline-block rounded-md">molasses</span> <br><br>
+          I have arms but no hands. I am hardworking, but people, ever-so-ungrateful, see right through me. I am <span class="bg-teal-600 text-teal-600 inline-block rounded-md"> a pair of glasses</span>
+          <br><br>
+          Solve the green blank, and on this street, find the store that sells that item, then head to your next clue.
+        </p>
+      </div>
+        <div class="ring bg text-foreground p-4 font-medium w-fit  mb-8 rounded-md">
+          <h1 class="text-xl font-bold m-0 mb-2">
+            Mission #2
+          </h1>
+          <h4>
+            Cross the street onto Canaletta street.
+          </h4>
+        <p class="mb-2">
+          On this street, you will find your target. Solve the following number pattern. It is not completely random - what are some special numbers for you?
+        </p>
+        <p class="mb-2 text-lg font-bold">
+         0, 29, 23, 52, 46, 75, 69, 98, 92, 121, 115, <span class="bg-blue-600 text-blue-600 inline-block rounded-md"> 144 </span>
+        </p>
+        <p class="mb-2">
+          From your answer, look at the right-most digit. Find the building with that number on this street. Walk in - keeping a low profile - and head to the restaurant.
+        </p>
+        <p class="mb-2">
+          There is a table for two, under the codename <strong class="font-bold">Baobei klus</strong> <em>(that's chinese for baby)</em>. Enjoy, and remember: <br><br>Agent Cupcake <em>always</em> starts her meals with a <strong class="text-bold">beef tartare</strong>.
+        </p>
+      </div>
+        <div class="ring bg text-foreground p-4 font-medium w-fit mb-8 rounded-md">
+          <h1 class="text-xl font-bold m-0 mb-2">
+            Mission #3 (Another day)
+          </h1>
+          <h4>
+            Agent Cupcake goes global
+          </h4>
+        <p class="mb-2">
+          A mysterious friend you will encounter, in the land of the Sausager.
+          <br><br>
+          Upon first meeting he will present to you,
+          <br><br>
+          Clothing of the finest design. 
+          <br><br>
+          The code will be:
+          <br><br>
+        </p>
+        
+      </div>
+      <div class="ring bg text-foreground p-4 font-medium w-fit mb-8 rounded-md">
+          <h1 class="text-xl font-bold m-0 mb-2">
+            Mission #4 (Another day)
+          </h1>
+          <h4>
+            Agent Cupcake goes global, for real this time
+          </h4>
+        <p class="mb-2">
+          Mission loading...
+        </p>
+        
+      </div>
+      <div>
+      </div>
+      
+      </div>
+    </div>
+  </section>
+  <script>
+    const buttons = document.querySelectorAll('span');
+      for (let button of buttons) {
+        button.addEventListener('click',
+        () => {
+          if (confirm("Are you sure you want to give up so easy? ;)") == true) {
+              button.classList.remove("bg-blue-600")
+              button.classList.remove("bg-teal-600")
+            } else {
+            }
+          
+        });
+      }
+  </script>
+</Layout>
